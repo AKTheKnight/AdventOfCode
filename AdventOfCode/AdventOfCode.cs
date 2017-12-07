@@ -34,7 +34,8 @@ namespace uk.co.aktheknight.AdventOfCode
             
             _2017 = new Challenge[]
             {
-                new DayOne2017(), new DayTwo2017(), new DayThree2017(), new DayFour2017(), new DayFive2017(), 
+                new DayOne2017(), new DayTwo2017(), new DayThree2017(), new DayFour2017(), new DayFive2017(),
+                new DaySix2017(), 
             };
             
             Challenge[] solutions;
