@@ -54,6 +54,7 @@
     <Compile Include="challenges\_2017\DaySeven2017.cs" />
     <Compile Include="challenges\_2017\DaySix2017.cs" />
     <Compile Include="challenges\_2017\DayThree2017.cs" />
+    <Compile Include="challenges\_2017\DayTwelve2017.cs" />
     <Compile Include="challenges\_2017\DayTwo2017.cs" />
     <Compile Include="challenges\_2018\DayOne.cs" />
     <Compile Include="Utils.cs" />
@@ -69,6 +70,7 @@
     <Content Include="inputs\_2015\Day6.txt" />
     <Content Include="inputs\_2016\Day2.txt" />
     <Content Include="inputs\_2017\Day1.txt" />
+    <Content Include="inputs\_2017\Day12.txt" />
     <Content Include="inputs\_2017\Day2.txt" />
     <Content Include="inputs\_2017\Day4.txt" />
     <Content Include="inputs\_2017\Day5.txt" />
