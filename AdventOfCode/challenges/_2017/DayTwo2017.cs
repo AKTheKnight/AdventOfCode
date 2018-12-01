@@ -53,7 +53,6 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
 
                         if ((number1 % number2) == 0)
                             sum += number1 / number2;
-
                     }
                 }
             }

@@ -47,9 +47,6 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2015
 
             var xRobo = 0;
             var yRobo = 0;
-            
-            var x = 0;
-            var y = 0;
 
             var robo = false;
             
