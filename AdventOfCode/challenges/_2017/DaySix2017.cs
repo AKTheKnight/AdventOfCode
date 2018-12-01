@@ -12,7 +12,7 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
         public DaySix2017() : base(6)
         {
             if (Input == null)
-                Input = Utils.getInput(2017, 6)[0];
+                Input = Utils.GetInput(2017, 6)[0];
         }
 
         public override string SolutionOne()

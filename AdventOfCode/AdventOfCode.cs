@@ -9,6 +9,7 @@ using uk.co.aktheknight.AdventOfCode.Challenges;
 using uk.co.aktheknight.AdventOfCode.Challenges._2015;
 using uk.co.aktheknight.AdventOfCode.Challenges._2016;
 using uk.co.aktheknight.AdventOfCode.Challenges._2017;
+using uk.co.aktheknight.AdventOfCode.Challenges._2018;
 
 namespace uk.co.aktheknight.AdventOfCode
 {
@@ -18,6 +19,7 @@ namespace uk.co.aktheknight.AdventOfCode
         private static Challenge[] _2015;
         private static Challenge[] _2016;
         private static Challenge[] _2017;
+        private static Challenge[] _2018;
         
         public static void Main(string[] args)
         {
@@ -37,10 +39,15 @@ namespace uk.co.aktheknight.AdventOfCode
                 new DayOne2017(), new DayTwo2017(), new DayThree2017(), new DayFour2017(), new DayFive2017(),
                 new DaySix2017(), 
             };
+
+            _2018 = new Challenge[]
+            {
+                new DayOne(), 
+            };
             
             Challenge[] solutions;
             
-            Console.WriteLine("What year would you like to do? (2015-2017");
+            Console.WriteLine("What year would you like to do? (2015-2018)");
             var year = Console.ReadLine();
              
             switch (year)
@@ -51,8 +58,11 @@ namespace uk.co.aktheknight.AdventOfCode
                 case "2016":
                     solutions = _2016;
                     break;
-                default:
+                case "2017":
                     solutions = _2017;
+                    break;
+                default:
+                    solutions = _2018;
                     break;
             }
             

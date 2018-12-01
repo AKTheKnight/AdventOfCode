@@ -11,7 +11,7 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
         public DayFive2017() : base(5)
         {
             if (Input == null)
-                Input = Utils.getInput(2017, 5);
+                Input = Utils.GetInput(2017, 5);
             
             Input.Add("END");
         }

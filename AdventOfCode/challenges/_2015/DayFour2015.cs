@@ -7,7 +7,7 @@
         public DayFour2015() : base(4)
         {
             if (Input == null)
-                Input = Utils.getInput(2015, 4)[0];
+                Input = Utils.GetInput(2015, 4)[0];
         }
 
         public override string SolutionOne()

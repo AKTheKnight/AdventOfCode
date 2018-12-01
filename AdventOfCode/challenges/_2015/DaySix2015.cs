@@ -12,7 +12,7 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2015
         public DaySix2015() : base(6)
         {
             if (Input == null)
-                Input = Utils.getInput(2015, 6);
+                Input = Utils.GetInput(2015, 6);
         }
         
        

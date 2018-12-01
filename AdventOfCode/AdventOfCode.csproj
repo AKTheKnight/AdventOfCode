@@ -52,6 +52,7 @@
     <Compile Include="challenges\_2017\DaySix2017.cs" />
     <Compile Include="challenges\_2017\DayThree2017.cs" />
     <Compile Include="challenges\_2017\DayTwo2017.cs" />
+    <Compile Include="challenges\_2018\DayOne.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="AdventOfCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,6 +70,7 @@
     <Content Include="inputs\_2017\Day4.txt" />
     <Content Include="inputs\_2017\Day5.txt" />
     <Content Include="inputs\_2017\Day6.txt" />
+    <Content Include="inputs\_2018\Day1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

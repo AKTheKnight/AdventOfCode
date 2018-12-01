@@ -10,7 +10,7 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
         public DayFour2017() : base(4)
         {
             if (Input == null)
-                Input = Utils.getInput(2017, 4);
+                Input = Utils.GetInput(2017, 4);
         }
 
         public override string SolutionOne()

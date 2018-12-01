@@ -9,7 +9,7 @@ namespace uk.co.aktheknight.AdventOfCode
 {
     public static class Utils
     {
-        public static List<String> getInput(int year, int day)
+        public static List<String> GetInput(int year, int day)
         {
             try
             {

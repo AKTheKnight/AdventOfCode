@@ -13,7 +13,7 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2016
         public DayTwo2016() : base(2)
         {
             if (Input == null)
-                Input = Utils.getInput(2016, 2);
+                Input = Utils.GetInput(2016, 2);
         }
 
         public override string SolutionOne()

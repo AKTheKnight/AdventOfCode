@@ -13,7 +13,7 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2015
         public DayFive2015() : base(5)
         {
             if (Input == null)
-                Input = Utils.getInput(2015, 5);
+                Input = Utils.GetInput(2015, 5);
         }
         
         char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
