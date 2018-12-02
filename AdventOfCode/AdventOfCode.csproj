@@ -36,6 +36,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="challenges\Challenge.cs" />
@@ -47,6 +48,7 @@
     <Compile Include="challenges\_2015\DayTwo2015.cs" />
     <Compile Include="challenges\_2016\DayTwo2016.cs" />
     <Compile Include="challenges\_2017\DayEight2017.cs" />
+    <Compile Include="challenges\_2017\DayFifteen2017.cs" />
     <Compile Include="challenges\_2017\DayFive2017.cs" />
     <Compile Include="challenges\_2017\DayFour2017.cs" />
     <Compile Include="challenges\_2017\DayNine2017.cs" />
@@ -57,6 +59,7 @@
     <Compile Include="challenges\_2017\DayTwelve2017.cs" />
     <Compile Include="challenges\_2017\DayTwo2017.cs" />
     <Compile Include="challenges\_2018\DayOne.cs" />
+    <Compile Include="Extensions\BigIntegerExtensions.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="AdventOfCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +74,7 @@
     <Content Include="inputs\_2016\Day2.txt" />
     <Content Include="inputs\_2017\Day1.txt" />
     <Content Include="inputs\_2017\Day12.txt" />
+    <Content Include="inputs\_2017\Day15.txt" />
     <Content Include="inputs\_2017\Day2.txt" />
     <Content Include="inputs\_2017\Day4.txt" />
     <Content Include="inputs\_2017\Day5.txt" />
