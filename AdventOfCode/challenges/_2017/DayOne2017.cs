@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 
 namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
 {
@@ -15,16 +17,12 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
 
         public override string SolutionOne()
         {
-            var sum = 0;
-            for (var i = 0; i < Input.Length - 1; i++)
-            {
-                //If the char at a position is equal to the one next to it then add it to the sum
-                if ((int) char.GetNumericValue(Input[i]) == (int) char.GetNumericValue(Input[i + 1]))
-                    sum += (int) char.GetNumericValue(Input[i]);
-            }
+            var sum = Input
+                .Where(((c, i) => i < Input.Length - 1))
+                .Where((val, i) => val == Input[i + 1])
+                .Sum(c => (int) char.GetNumericValue(c));
 
-            //Does the end char equal the first char
-            if ((int) char.GetNumericValue(Input[Input.Length - 1]) == (int) char.GetNumericValue(Input[0]))
+            if (Input[Input.Length - 1] == Input[0])
                 sum += (int) char.GetNumericValue(Input[0]);
 
             return sum.ToString();
@@ -40,11 +38,11 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
                 if (pos2 >= Input.Length)
                     pos2 -= Input.Length;
                 
-                if ((int) char.GetNumericValue(Input[i]) == (int) char.GetNumericValue(Input[pos2]))
+                if (Input[i] == Input[pos2])
                     sum += (int) char.GetNumericValue(Input[i]);
             }
 
-            if ((int) char.GetNumericValue(Input[Input.Length - 1]) == (int) char.GetNumericValue(Input[Input.Length - step]))
+            if (Input[Input.Length - 1] == Input[0])
                 sum += (int) char.GetNumericValue(Input[0]);
 
             return sum.ToString();

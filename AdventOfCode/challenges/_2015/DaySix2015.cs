@@ -19,14 +19,7 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2015
         
         public override string SolutionOne()
         {
-            bool[,] lights = new bool[1000, 1000];
-            for (var i = 0; i < 1000; i++)
-            {
-                for (var j = 0; j < 1000; j++)
-                {
-                    lights[i, j] = false;
-                }
-            }
+            var lights = new bool[1000, 1000];
             
             foreach (var s in Input)
             {

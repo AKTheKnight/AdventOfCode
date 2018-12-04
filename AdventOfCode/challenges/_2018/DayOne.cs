@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace uk.co.aktheknight.AdventOfCode.Challenges._2018
 {
@@ -16,13 +17,8 @@ namespace uk.co.aktheknight.AdventOfCode.Challenges._2018
 
         public override string SolutionOne()
         {
-            var frequency = 0;
+            var frequency = Input.Sum(int.Parse);
             
-            foreach (var s in Input)
-            {
-                frequency += Int32.Parse(s);
-            }
-
             return frequency.ToString();
         }
 
