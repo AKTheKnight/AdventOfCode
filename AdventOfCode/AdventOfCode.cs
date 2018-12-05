@@ -43,7 +43,7 @@ namespace uk.co.aktheknight.AdventOfCode
 
             _2018 = new Challenge[]
             {
-                new DayOne(), new DayTwo(), new DayThree(), new DayFour(), 
+                new DayOne(), new DayTwo(), new DayThree(), new DayFour(), new DayFive(), 
             };
             
             Challenge[] solutions;

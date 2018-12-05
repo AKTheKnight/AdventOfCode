@@ -39,29 +39,30 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="challenges\Challenge.cs" />
-    <Compile Include="challenges\_2015\DayFive2015.cs" />
-    <Compile Include="challenges\_2015\DayFour2015.cs" />
-    <Compile Include="challenges\_2015\DayOne2015.cs" />
-    <Compile Include="challenges\_2015\DaySix2015.cs" />
-    <Compile Include="challenges\_2015\DayThree2015.cs" />
-    <Compile Include="challenges\_2015\DayTwo2015.cs" />
-    <Compile Include="challenges\_2016\DayTwo2016.cs" />
-    <Compile Include="challenges\_2017\DayEight2017.cs" />
-    <Compile Include="challenges\_2017\DayFifteen2017.cs" />
-    <Compile Include="challenges\_2017\DayFive2017.cs" />
-    <Compile Include="challenges\_2017\DayFour2017.cs" />
-    <Compile Include="challenges\_2017\DayNine2017.cs" />
-    <Compile Include="challenges\_2017\DayOne2017.cs" />
-    <Compile Include="challenges\_2017\DaySeven2017.cs" />
-    <Compile Include="challenges\_2017\DaySix2017.cs" />
-    <Compile Include="challenges\_2017\DayThree2017.cs" />
-    <Compile Include="challenges\_2017\DayTwelve2017.cs" />
-    <Compile Include="challenges\_2017\DayTwo2017.cs" />
-    <Compile Include="challenges\_2018\DayFour.cs" />
-    <Compile Include="challenges\_2018\DayOne.cs" />
-    <Compile Include="challenges\_2018\DayThree.cs" />
-    <Compile Include="challenges\_2018\DayTwo.cs" />
+    <Compile Include="Challenges\Challenge.cs" />
+    <Compile Include="Challenges\_2015\DayFive2015.cs" />
+    <Compile Include="Challenges\_2015\DayFour2015.cs" />
+    <Compile Include="Challenges\_2015\DayOne2015.cs" />
+    <Compile Include="Challenges\_2015\DaySix2015.cs" />
+    <Compile Include="Challenges\_2015\DayThree2015.cs" />
+    <Compile Include="Challenges\_2015\DayTwo2015.cs" />
+    <Compile Include="Challenges\_2016\DayTwo2016.cs" />
+    <Compile Include="Challenges\_2017\DayEight2017.cs" />
+    <Compile Include="Challenges\_2017\DayFifteen2017.cs" />
+    <Compile Include="Challenges\_2017\DayFive2017.cs" />
+    <Compile Include="Challenges\_2017\DayFour2017.cs" />
+    <Compile Include="Challenges\_2017\DayNine2017.cs" />
+    <Compile Include="Challenges\_2017\DayOne2017.cs" />
+    <Compile Include="Challenges\_2017\DaySeven2017.cs" />
+    <Compile Include="Challenges\_2017\DaySix2017.cs" />
+    <Compile Include="Challenges\_2017\DayThree2017.cs" />
+    <Compile Include="Challenges\_2017\DayTwelve2017.cs" />
+    <Compile Include="Challenges\_2017\DayTwo2017.cs" />
+    <Compile Include="Challenges\_2018\DayFive.cs" />
+    <Compile Include="Challenges\_2018\DayFour.cs" />
+    <Compile Include="Challenges\_2018\DayOne.cs" />
+    <Compile Include="Challenges\_2018\DayThree.cs" />
+    <Compile Include="Challenges\_2018\DayTwo.cs" />
     <Compile Include="Extensions\BigIntegerExtensions.cs" />
     <Compile Include="Extensions\IEnumerableExtensions.cs" />
     <Compile Include="Utils.cs" />
@@ -90,6 +91,7 @@
     <Content Include="inputs\_2018\Day2.txt" />
     <Content Include="inputs\_2018\Day3.txt" />
     <Content Include="inputs\_2018\Day4.txt" />
+    <Content Include="inputs\_2018\Day5.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
