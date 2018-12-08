@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -61,10 +61,12 @@
     <Compile Include="Challenges\_2018\DayFive.cs" />
     <Compile Include="Challenges\_2018\DayFour.cs" />
     <Compile Include="Challenges\_2018\DayOne.cs" />
+    <Compile Include="Challenges\_2018\DaySeven.cs" />
     <Compile Include="Challenges\_2018\DaySix.cs" />
     <Compile Include="Challenges\_2018\DayThree.cs" />
     <Compile Include="Challenges\_2018\DayTwo.cs" />
     <Compile Include="Extensions\BigIntegerExtensions.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
     <Compile Include="Extensions\IEnumerableExtensions.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="AdventOfCode.cs" />
@@ -78,6 +80,7 @@
     <Content Include="inputs\_2015\Day5.txt" />
     <Content Include="inputs\_2015\Day6.txt" />
     <Content Include="inputs\_2016\Day2.txt" />
+    <Content Include="inputs\_2016\Day3.txt" />
     <Content Include="inputs\_2017\Day1.txt" />
     <Content Include="inputs\_2017\Day12.txt" />
     <Content Include="inputs\_2017\Day15.txt" />
@@ -94,6 +97,7 @@
     <Content Include="inputs\_2018\Day4.txt" />
     <Content Include="inputs\_2018\Day5.txt" />
     <Content Include="inputs\_2018\Day6.txt" />
+    <Content Include="inputs\_2018\Day7.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

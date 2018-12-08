@@ -31,7 +31,7 @@ namespace uk.co.aktheknight.AdventOfCode
 
             _2016 = new Challenge[]
             {
-                new DayTwo2016(), 
+                new DayTwo2016(),
             };
             
             _2017 = new Challenge[]
@@ -43,8 +43,8 @@ namespace uk.co.aktheknight.AdventOfCode
 
             _2018 = new Challenge[]
             {
-                new DayOne(), new DayTwo(), new DayThree(), new DayFour(), new DayFive(),
-                new DaySix(), 
+                new DayOne(), new DayTwo(), new Challenges._2018.DayThree(), new DayFour(), new DayFive(),
+                new DaySix(), new DaySeven(), 
             };
             
             Challenge[] solutions;
