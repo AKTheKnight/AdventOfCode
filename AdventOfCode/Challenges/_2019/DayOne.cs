@@ -1,12 +1,14 @@
+using System.Collections.Generic;
+
 namespace AdventOfCode.Challenges._2019
 {
     public class DayOne2019 : Challenge
     {
-        private static string Input { get; set; }
+        private static List<string> Input { get; set; }
         public DayOne2019() : base(1)
         {
             if (Input == null)
-                Input = Utils.GetInput(2019, 1)[0];
+                Input = Utils.GetInput(2019, 1);
         }
 
         public override string SolutionOne()

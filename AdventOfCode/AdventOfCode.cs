@@ -76,7 +76,7 @@ namespace AdventOfCode
                 CompleteSolution("two", solution.SolutionTwo);
 
                 Console.ReadLine();
-                return;
+                Main(args);
             }
 
             Console.WriteLine("\nCould not find that challenge\n\n");

@@ -1,4 +1,6 @@
-﻿namespace AdventOfCode.Challenges._2015
+﻿using System.Linq;
+
+namespace AdventOfCode.Challenges._2015
 {
     public class DayOne2015 : Challenge
     {
@@ -14,16 +16,10 @@
         public override string SolutionOne()
         {
             //What floor does santa end on
-            var floor = 0;
-            foreach (var c in Input)
-            {
-                //Going up
-                if (c == '(')
-                    floor++;
-                //Going down
-                else
-                    floor--;
-            }
+            var up = Input.Count(c => c == '(');
+            var down = Input.Length - up;
+
+            var floor = up - down;
 
             return floor.ToString();
         }
