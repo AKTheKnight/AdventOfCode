@@ -1,8 +1,6 @@
-﻿using System;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
+﻿using System.Linq;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
+namespace AdventOfCode.Challenges._2017
 {
     public class DayOne2017 : Challenge
     {

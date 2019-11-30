@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Odbc;
+﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2015
+namespace AdventOfCode.Challenges._2015
 {
     public class DayFive2015 : Challenge
     {

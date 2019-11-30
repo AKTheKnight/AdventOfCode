@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Globalization;
-using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
-using uk.co.aktheknight.AdventOfCode.Challenges;
-using uk.co.aktheknight.AdventOfCode.Challenges._2015;
-using uk.co.aktheknight.AdventOfCode.Challenges._2016;
-using uk.co.aktheknight.AdventOfCode.Challenges._2017;
-using uk.co.aktheknight.AdventOfCode.Challenges._2018;
+using AdventOfCode.Challenges;
+using AdventOfCode.Challenges._2015;
+using AdventOfCode.Challenges._2016;
+using AdventOfCode.Challenges._2017;
+using AdventOfCode.Challenges._2018;
+using AdventOfCode.Challenges._2019;
 
-namespace uk.co.aktheknight.AdventOfCode
+namespace AdventOfCode
 {
     internal static class AdventOfCode
     {
@@ -20,6 +17,7 @@ namespace uk.co.aktheknight.AdventOfCode
         private static Challenge[] _2016;
         private static Challenge[] _2017;
         private static Challenge[] _2018;
+        private static Challenge[] _2019;
         
         public static void Main(string[] args)
         {
@@ -43,31 +41,30 @@ namespace uk.co.aktheknight.AdventOfCode
 
             _2018 = new Challenge[]
             {
-                new DayOne(), new DayTwo(), new Challenges._2018.DayThree(), new DayFour(), new DayFive(),
+                new DayOne(), new DayTwo(), new DayThree(), new DayFour(), new DayFive(),
                 new DaySix(), new DaySeven(), 
+            };
+
+            _2019 = new Challenge[]
+            {
+                new DayOne2019(),
             };
             
             Challenge[] solutions;
             
             Console.WriteLine("What year would you like to do? (2015-2018)");
             var year = Console.ReadLine();
-             
-            switch (year)
+
+            solutions = year switch
             {
-                case "2015":
-                    solutions = _2015;
-                    break;
-                case "2016":
-                    solutions = _2016;
-                    break;
-                case "2017":
-                    solutions = _2017;
-                    break;
-                default:
-                    solutions = _2018;
-                    break;
-            }
-            
+                "2015" => _2015,
+                "2016" => _2016,
+                "2017" => _2017,
+                "2018" => _2018,
+                "2019" => _2019,
+                _ => _2019
+            };
+
             Console.WriteLine("\nWhat day would you like to do? (1-{0})", solutions.Length);
             var day = Console.ReadLine();
 

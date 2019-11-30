@@ -1,13 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
-using uk.co.aktheknight.AdventOfCode.Extensions;
+using AdventOfCode.Extensions;
 
 /**
  * https://dylansmith.visualstudio.com/adventofcode2018/_git/AdventOfCode2018?path=%2Fsrc%2FDay07.cs&version=GBmaster
  */
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2018
+namespace AdventOfCode.Challenges._2018
 {
     public class DaySeven : Challenge
     {

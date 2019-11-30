@@ -1,9 +1,8 @@
-
 using System;
 using System.Numerics;
 using System.Text;
 
-namespace uk.co.aktheknight.AdventOfCode.Extensions
+namespace AdventOfCode.Extensions
 {
   /// <summary>
   /// Extension methods to convert <see cref="System.Numerics.BigInteger"/>

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography.X509Certificates;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2016
+namespace AdventOfCode.Challenges._2016
 {
     public class DayTwo2016 : Challenge
     {

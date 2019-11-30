@@ -1,11 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.Dynamic;
-using System.Net.NetworkInformation;
 using System.Numerics;
-using uk.co.aktheknight.AdventOfCode.Extensions;
+using AdventOfCode.Extensions;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
+namespace AdventOfCode.Challenges._2017
 {
     public class DayFifteen2017 : Challenge
     {

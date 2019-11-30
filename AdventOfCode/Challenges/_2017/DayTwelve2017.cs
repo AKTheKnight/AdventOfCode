@@ -1,10 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Configuration;
-using System.Net.Sockets;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
+namespace AdventOfCode.Challenges._2017
 {
     public class DayTwelve2017 : Challenge
     {

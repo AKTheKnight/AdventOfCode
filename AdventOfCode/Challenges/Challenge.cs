@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace uk.co.aktheknight.AdventOfCode.Challenges
+﻿namespace AdventOfCode.Challenges
 {
     public abstract class Challenge
     {

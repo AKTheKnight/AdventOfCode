@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace uk.co.aktheknight.AdventOfCode.Extensions
+namespace AdventOfCode.Extensions
 {
     public static class Extensions
     {

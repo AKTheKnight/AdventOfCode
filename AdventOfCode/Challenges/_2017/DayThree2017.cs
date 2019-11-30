@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Runtime.InteropServices;
-using System.Security.AccessControl;
-using System.Security.Permissions;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
+namespace AdventOfCode.Challenges._2017
 {
     public class DayThree2017 : Challenge
     {

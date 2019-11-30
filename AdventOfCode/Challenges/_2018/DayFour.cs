@@ -2,10 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Xml;
-using uk.co.aktheknight.AdventOfCode.Extensions;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2018
+namespace AdventOfCode.Challenges._2018
 {
     public class DayFour : Challenge
     {

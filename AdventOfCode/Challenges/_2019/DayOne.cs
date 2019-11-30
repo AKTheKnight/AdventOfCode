@@ -1,16 +1,12 @@
-﻿using System.Collections.Generic;
-
-namespace AdventOfCode.Challenges._2017
+namespace AdventOfCode.Challenges._2019
 {
-    public class DaySeven2017 : Challenge
+    public class DayOne2019 : Challenge
     {
-        
-        private static List<string> Input { get; set; }
-        
-        public DaySeven2017() : base(7)
+        private static string Input { get; set; }
+        public DayOne2019() : base(1)
         {
             if (Input == null)
-                Input = Utils.GetInput(2017, 7);
+                Input = Utils.GetInput(2019, 1)[0];
         }
 
         public override string SolutionOne()

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2018
+namespace AdventOfCode.Challenges._2018
 {
     public class DaySix : Challenge
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2015
+namespace AdventOfCode.Challenges._2015
 {
     public class DayTwo2015 : Challenge
     {

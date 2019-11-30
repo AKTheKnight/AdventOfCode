@@ -1,8 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 
-namespace uk.co.aktheknight.AdventOfCode.Extensions
+namespace AdventOfCode.Extensions
 {
     public static class IEnumerableExtensions
     {

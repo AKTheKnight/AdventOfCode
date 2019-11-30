@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2017
+namespace AdventOfCode.Challenges._2017
 {
     public class DayFour2017 : Challenge
     {

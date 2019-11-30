@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net;
 using System.Text;
 
-namespace uk.co.aktheknight.AdventOfCode
+namespace AdventOfCode
 {
     public static class Utils
     {
@@ -13,7 +12,7 @@ namespace uk.co.aktheknight.AdventOfCode
         {
             try
             {
-                String[] lines = File.ReadAllLines("../../inputs/_" + year + "/Day" + day + ".txt");
+                String[] lines = File.ReadAllLines("../../../inputs/_" + year + "/Day" + day + ".txt");
                 return lines.ToList();
             }
             catch (Exception e)

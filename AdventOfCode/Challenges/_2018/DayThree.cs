@@ -1,8 +1,6 @@
-using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace uk.co.aktheknight.AdventOfCode.Challenges._2018
+namespace AdventOfCode.Challenges._2018
 {
     public class DayThree : Challenge
     {

@@ -1,4 +1,4 @@
-﻿namespace uk.co.aktheknight.AdventOfCode.Challenges._2015
+﻿namespace AdventOfCode.Challenges._2015
 {
     public class DayFour2015 : Challenge
     {
