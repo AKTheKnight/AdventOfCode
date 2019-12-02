@@ -47,12 +47,12 @@ namespace AdventOfCode
 
             _2019 = new Challenge[]
             {
-                new DayOne2019(),
+                new DayOne2019(), new DayTwo2019(), 
             };
             
             Challenge[] solutions;
             
-            Console.WriteLine("What year would you like to do? (2015-2018)");
+            Console.WriteLine("What year would you like to do? (2015-2019)");
             var year = Console.ReadLine();
 
             solutions = year switch
