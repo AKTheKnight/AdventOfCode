@@ -7,6 +7,7 @@ using AdventOfCode.Challenges._2016;
 using AdventOfCode.Challenges._2017;
 using AdventOfCode.Challenges._2018;
 using AdventOfCode.Challenges._2019;
+using AdventOfCode.Challenges._2020;
 
 namespace AdventOfCode
 {
@@ -18,6 +19,7 @@ namespace AdventOfCode
         private static Challenge[] _2017;
         private static Challenge[] _2018;
         private static Challenge[] _2019;
+        private static Challenge[] _2020;
         
         public static void Main(string[] args)
         {
@@ -49,6 +51,11 @@ namespace AdventOfCode
             {
                 new DayOne2019(), new DayTwo2019(), new DayThree2019(), 
             };
+
+            _2020 = new Challenge[]
+            {
+                new DayOne2020(),
+            };
             
             Challenge[] solutions;
             
@@ -62,7 +69,8 @@ namespace AdventOfCode
                 "2017" => _2017,
                 "2018" => _2018,
                 "2019" => _2019,
-                _ => _2019
+                "2020" => _2020,
+                _ => _2020
             };
 
             Console.WriteLine("\nWhat day would you like to do? (1-{0})", solutions.Length);
