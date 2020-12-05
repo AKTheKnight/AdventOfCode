@@ -54,7 +54,7 @@ namespace AdventOfCode
 
             _2020 = new Challenge[]
             {
-                new DayOne2020(),
+                new DayOne2020(), new DayTwo2020(),
             };
             
             Challenge[] solutions;
