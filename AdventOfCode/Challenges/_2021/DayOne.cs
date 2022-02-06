@@ -20,6 +20,13 @@ public class DayOne2021 : Challenge
 
     public override string SolutionTwo()
     {
-        throw new System.NotImplementedException();
+        //If we combine the threes into a list, we can use the same function (Group by threes, then compare 1-2)
+        var vals = new List<int>();
+        for (var i = 1; i < Input.Count - 1; i++)
+        {
+            vals.Add(Input[i-1]+Input[i]+Input[i+1]);
+        }
+
+        return vals.Skip(1).Zip(vals, (x, y) => x > y).Count(x => x).ToString();
     }
 }
