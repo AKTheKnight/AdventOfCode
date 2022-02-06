@@ -8,6 +8,7 @@ using AdventOfCode.Challenges._2017;
 using AdventOfCode.Challenges._2018;
 using AdventOfCode.Challenges._2019;
 using AdventOfCode.Challenges._2020;
+using AdventOfCode.Challenges._2021;
 
 namespace AdventOfCode
 {
@@ -20,7 +21,8 @@ namespace AdventOfCode
         private static Challenge[] _2018;
         private static Challenge[] _2019;
         private static Challenge[] _2020;
-        
+        private static Challenge[] _2021;
+
         public static void Main(string[] args)
         {
             _2015 = new Challenge[]
@@ -56,6 +58,11 @@ namespace AdventOfCode
             {
                 new DayOne2020(), new DayTwo2020(),
             };
+
+            _2021 = new Challenge[]
+            {
+                new DayOne2021(),
+            };
             
             Challenge[] solutions;
             
@@ -70,6 +77,7 @@ namespace AdventOfCode
                 "2018" => _2018,
                 "2019" => _2019,
                 "2020" => _2020,
+                "2021" => _2021,
                 _ => _2020
             };
 
