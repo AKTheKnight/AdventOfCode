@@ -8,6 +8,21 @@ namespace AdventOfCode
 {
     public static class Utils
     {
+        public static String GetInputAsSingleString(int year, int day)
+        {
+            try
+            {
+                var text = File.ReadAllText("../../../inputs/_" + year + "/Day" + day + ".txt");
+                return text;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.StackTrace);
+                Console.WriteLine("Unable to read input for year {0} and day {1}", day, year);
+                return null;
+            }
+        }
+        
         public static List<String> GetInput(int year, int day)
         {
             try
