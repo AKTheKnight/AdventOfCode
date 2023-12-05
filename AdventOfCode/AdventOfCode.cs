@@ -68,7 +68,7 @@ namespace AdventOfCode
 
             _2022 = new Challenge[]
             {
-                new DayOne2022()
+                new DayOne2022(), new DayTwo2022()
             };
             
             Challenge[] solutions;
